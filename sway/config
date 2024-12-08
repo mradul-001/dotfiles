@@ -55,7 +55,7 @@ exec swaybg -i /home/mradul/Pictures/Catppuccin/minimalistic/teal_unicat.png -m 
     bindsym $mod+q kill
 
     # Start your launcher
-    bindsym $mod+d exec wofi --show drun
+    bindsym $mod+d exec wofi --show drun -I
 
     # Start firefox
     bindsym $mod+f exec firefox
