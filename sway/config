@@ -32,9 +32,8 @@ client.background        $base
 
 # ------------ STARTUP APPS ------------
 exec --no-startup-id waybar
-exec swaybg -i /home/mradul/Pictures/Wallpapers/bridge.jpg -m fill 
-
-
+exec swaybg -i /home/mradul/Pictures/Wallpapers/bridge.jpg -m fill
+exec mako
 
 ### Idle configuration
 #
@@ -215,7 +214,7 @@ bindsym $mod+r mode "resize"
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
     
     # Special key to take a screenshot with grim
-    bindsym Print exec grim -g "$(slurp)" ~/Pictures/Screenshots/screenshot_$(date +\%Y\%m\%d\%H\%M\%S).png
+    bindsym Print exec grim -g "$(slurp)" ~/Pictures/Screenshots/screenshot_$(date +\%Y\%m\%d\%H\%M\%S).png && notify-send "Screenshot has been captured and saved!"
 
 # ------------ TOUCHPAD CONFIGURATION ------------
 
