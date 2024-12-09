@@ -19,7 +19,7 @@
 @-moz-document url("about:home"),
 url("about:newtab") {
   body {
-    background: url("ASSETS/wallpaper/car.jpg") center/cover no-repeat fixed !important;
+    background: url("ASSETS/wallpaper/Clearnight.jpg") center/cover no-repeat fixed !important;
   }
 
   .outer-wrapper .search-wrapper .search-handoff-button {
