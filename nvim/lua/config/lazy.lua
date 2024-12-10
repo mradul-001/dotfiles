@@ -1,3 +1,5 @@
+-- This file fetches all the plugins present in nvim/lua/plugins directory
+
 local plugins = {}
 
 -- Load all plugin modules
@@ -7,4 +9,3 @@ for _, file in ipairs(plugin_files) do
 end
 
 require("lazy").setup(plugins)
-

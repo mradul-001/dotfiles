@@ -4,7 +4,7 @@ return {
     config = function()
         require("lualine").setup({
             options = {
-                theme = "gruvbox", -- Set your favorite theme
+                theme = "horizon", -- Set your favorite theme
                 section_separators = "",
                 component_separators = "",
             },

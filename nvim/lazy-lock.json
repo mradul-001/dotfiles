@@ -7,6 +7,8 @@
   "lualine.nvim": { "branch": "master", "commit": "2a5bae925481f999263d6f5ed8361baef8df4f83" },
   "nvim-tree.lua": { "branch": "master", "commit": "db8d7ac1f524fc6f808764b29fa695c51e014aa6" },
   "nvim-treesitter": { "branch": "master", "commit": "337b503688eccb3046547661e4c738e674548fcf" },
+  "oxocarbon": { "branch": "main", "commit": "004777819ba294423b638a35a75c9f0c7be758ed" },
   "plenary.nvim": { "branch": "master", "commit": "2d9b06177a975543726ce5c73fca176cedbffe9d" },
+  "rose-pine": { "branch": "main", "commit": "07a887a7bef4aacea8c7caebaf8cbf808cdc7a8e" },
   "telescope.nvim": { "branch": "master", "commit": "54930e1abfc94409e1bb9266e752ef8379008592" }
 }
