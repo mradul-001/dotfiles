@@ -63,7 +63,7 @@ exec mako
     bindsym $mod+f exec firefox
 
     # Start dolphin
-    bindsym $mod+n exec nemo
+    bindsym $mod+n exec nautilus
 
     # Start camera
     bindsym $mod+c exec cheese
