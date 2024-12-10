@@ -37,7 +37,7 @@
     "format": "{:%A, %d %B %Y | %H:%M}",
     "tooltip": false
   },
-  
+
   "network": {
     "format-wifi" : "󰤢  {essid}",
     "format-ethernet": "󰤢  {essid}",
@@ -65,8 +65,10 @@
       "warning": 20,
       "critical": 10
     },
-
-    "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+    "format-icons": {
+       "discharging":  ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+        "charging": ["󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"]
+    },
     "tooltip": true
   }
 }
