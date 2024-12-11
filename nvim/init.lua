@@ -19,7 +19,7 @@ require("config.lazy")
 local theme_switcher = require("config.theme_switcher")
 
 -- Set default theme
--- theme_switcher.set_theme("oxocarbon")
+theme_switcher.set_theme("catppuccin")
 
 vim.api.nvim_set_keymap("n", "<leader>tc", ":lua require('config.theme_switcher').set_theme('catppuccin')<CR>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<leader>td", ":lua require('config.theme_switcher').set_theme('dracula')<CR>", { noremap = true, silent = true })
