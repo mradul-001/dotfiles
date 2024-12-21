@@ -9,8 +9,12 @@
 }
 
 window#waybar {
-  background: rgba(30, 30, 46, 0.95);
-  border: 2px solid rgba(20, 20, 31, 0.5);
+  /* Catppuccin
+  background: rgba(30, 30, 46, 0.95);  
+  border: 2px solid rgba(20, 20, 31, 0.5); */
+
+  /* Other */
+  background: rgba(0, 0, 0, 0.6);
   border-radius: 5px;
 }
 
@@ -44,7 +48,7 @@ window#waybar {
 }
 
 #workspaces button.urgent {
-  background-color: pink;
+  background-color: #fa3e3e;
 }
 
 #battery {

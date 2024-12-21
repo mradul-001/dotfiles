@@ -32,7 +32,7 @@ client.background        $base
 
 # ------------ STARTUP APPS ------------
 exec --no-startup-id waybar
-exec swaybg -i /home/mradul/Pictures/Wallpapers/bridge.jpg -m fill
+exec swaybg -i /home/mradul/Pictures/Wallpapers/penguin.png -m fill
 exec mako
 
 ### Idle configuration
