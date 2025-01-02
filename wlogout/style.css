@@ -1,0 +1,66 @@
+* {
+	background-image: none;
+	box-shadow: none;
+}
+
+window {
+	background-image: url("/home/mradul/Pictures/Wallpapers/penguin.png");
+}
+
+button {
+	text-decoration-color: #FFFFFF;
+        color: #FFFFFF;
+	background-color: rgba(0, 0, 0, 0.5);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25%;
+	margin: 10px;
+	border: 2px solid white;
+	border-radius: 0;
+	font-size: 17px;
+	font-family: "Hack Nerd Font";
+}
+
+button:focus, button:active, button:hover {
+	background-color: rgba(0, 0, 0, 0.7);
+	outline-style: none;
+}
+
+#lock {
+    background-image: image(url("/usr/share/wlogout/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"));
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-top-left-radius: 20px;
+}
+
+#logout {
+    background-image: image(url("/usr/share/wlogout/icons/logout.png"), url("/usr/local/share/wlogout/icons/logout.png"));
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    border-bottom-left-radius: 20px;
+}
+
+#suspend {
+    background-image: image(url("/usr/share/wlogout/icons/suspend.png"), url("/usr/local/share/wlogout/icons/suspend.png"));
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-top-left-radius: 20px;
+}
+
+#hibernate {
+    background-image: image(url("/usr/share/wlogout/icons/hibernate.png"), url("/usr/local/share/wlogout/icons/hibernate.png"));
+}
+
+#shutdown {
+    background-image: image(url("/usr/share/wlogout/icons/shutdown.png"), url("/usr/local/share/wlogout/icons/shutdown.png"));
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    border-top-right-radius: 20px;
+}
+
+#reboot {
+    background-image: image(url("/usr/share/wlogout/icons/reboot.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom-right-radius: 20px;
+}
